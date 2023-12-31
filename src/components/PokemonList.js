@@ -39,7 +39,7 @@ const PokemonList = () => {
     if (pokemonListRef.current) {
       pokemonListRef.current.scrollLeft += 40;
       
-      console.log(pokemonListRef.current.scrollLeft)
+     
     }
   };
 
@@ -51,9 +51,7 @@ const PokemonList = () => {
     ) {
       dispatch(incrementCount());
       fetchData();
-      console.log("jai shree krishna ")
-      // Load more data when near the end
-      //fetchData();
+    
     }
   }
 

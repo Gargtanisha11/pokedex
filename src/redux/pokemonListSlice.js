@@ -5,7 +5,7 @@ import { createSlice } from "@reduxjs/toolkit";
     initialState:{
         list:[],
         typeList:[],
-        count:0,
+        count:20,
     },
     reducers:{
        addList:(state,action)=>{
