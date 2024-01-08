@@ -22,6 +22,9 @@ import { createSlice } from "@reduxjs/toolkit";
         },
         incrementCount:(state)=>{
           state.count+=20;
+          if(count>1320){
+            state.count=20;
+          }
         }
     }
  })
